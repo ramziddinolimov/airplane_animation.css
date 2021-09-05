@@ -19,14 +19,21 @@
     width: 700px;
     position: absolute;
     bottom: 280px;
-    left: -200px;
-    animation: plan 4s linear infinite;
+    left: -1000px;
+    animation: plan 10s linear infinite;
+    transform-origin: 100% 50%;
 }
 
 
     @keyframes plan{
+        0%{
+            transform: translateX(200px) translateY(0px) rotate(0deg);
+        }
+        30%{
+            transform: translateX(1000px) translateY(0px) rotate(0deg);
+        }
         100%{
-            transform: translateX(1000px);
+            transform: translateX(3000px) translateY(-200px) rotate(-20deg);
         }
     
 }
