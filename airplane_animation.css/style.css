@@ -27,13 +27,13 @@
 
     @keyframes plan{
         0%{
-            transform: translateX(200px) translateY(0px) rotate(0deg);
+            transform: translateX(0px) translateY(0px) rotate(0deg);
         }
-        30%{
+        50%{
             transform: translateX(1000px) translateY(0px) rotate(0deg);
-        }
+        } 
         100%{
-            transform: translateX(3000px) translateY(-200px) rotate(-20deg);
+            transform: translateX(3000px) translateY(-500px) rotate(-20deg);
         }
     
 }
